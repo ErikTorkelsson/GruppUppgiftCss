@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+}
+
+header{   
+    height: 70px;
+}
+
+nav{
+    margin: auto;
+    max-width: 1024px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;   
+}
+
+.fa-bars{
+    z-index: 300;
+}
+
+.sidemenu{
+    position: fixed;
+    
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    opacity: 0.60;
+    /* background-color: white; */
+    z-index: 200;
+    padding: 0 25px;
+    transition: 03s cubic-bezier(0.165, 0.84, 0.44, 1);   
+}
+
+.inner-sidemenu{
+    position: fixed;
+    left: -100;
+    width: 80vw;
+    height: 100vh;
+    background:white;
+    opacity: 100%;
+}
+
+.sidemenu-hidden{
+    left: -100vw;
+}
+
+.sidemenu-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.sidemenu-top img{
+    padding-bottom: 30px;
+}
+
+.sidemenu-socialmedia{
+    padding: 30px;
+    border-top-style: solid;
+    border-top-color: orange;   
+}
+
+.sidemenu-links{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.sidemenu i{
+    padding: 5px;
+}
+
+.sidemenu a{
+    text-decoration: none;
+    color: #222;
+    padding: 15px;       
+}
+.sidemenu a+a{
+    border-top-style: solid;
+    border-top-color: lightgrey;
+    border-width: 1px;
+}
+
+.desktop{
+    font-size: 16px;    
+    display: none;
+}
+.desktop a{
+    text-decoration: none;
+    color: #222;
+    padding: 3px;
+}
+
+body{
+    margin: 0;
+}
+
+button{
+    width: 140px;
+    padding: 12px;
+    background-color: darkorange;
+    color: white;
+    border: 0;
+    font-size: 12px;
+}
+
+.about-us{
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: rgb(240, 239, 239);
+}
+
+.banner{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: 1024px;
+    height: 500px;
+    background-image: url("picturesAU/10-cut-dark.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    position: relative;
+    top: -60px;
+    z-index: 100;   
+}
+
+.about-the-restaurant-pic-2{
+    display: none;
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    position: absolute;  
+}
+
+.banner-text h5{
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.banner-text p{
+    font-family: 'Lora', serif;
+    font-style: italic;
+}
+
+.fa-star{
+    color: darkorange;
+}
+.fa-star-of-life{
+    color: darkorange;
+}
+.fa-barcode{
+    color: darkorange;
+}
+
+.michelin{
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+}
+
+.michelin-images{
+    display: flex;
+    flex-direction: column;    
+}
+
+.michelin-images img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.michelin-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lora', serif;
+    background-color: rgb(240, 239, 239);
+    padding: 8%;
+}
+
+.michelin-text h1{
+    font-family: 'Playfair Display', serif;
+}
+
+.outer-trio{
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.trio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Lora', serif;
+    color: gray
+}
+
+.trio h1{
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.get-in-touch{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    background-image: url("picturesAU/12-cut-dark.jpg");
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.get-in-touch-text{
+    font-family: 'Lora', serif;
+}
+
+.get-in-touch-text h1{
+    font-family: 'Playfair Display', serif;
+}
+
+.get-in-touch img{
+    max-width: 100%;
+}
+
+.get-in-touch-pic-1{
+    display: none;
+}
+
+@media screen and (min-width: 576px){
+    .mobile{
+        display: none;
+    }
+
+    .desktop{
+        display: flex;
+    }
+
+    .banner-text{
+        padding-left: 50%;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .michelin{
+        flex-direction: row;
+    }
+
+    .michelin-images{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+        
+    }
+
+    .michelin-images img{
+        width: 50%;
+    }
+
+    .michelin-text{
+        width: 50%;
+    }
+
+    .outer-trio{
+        flex-direction: row;
+    }
+    
+    .get-in-touch{
+        padding: 0 30%;
+    }
+  }

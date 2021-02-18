@@ -1,0 +1,473 @@
+* {
+    box-sizing: border-box;  /* margin och padding Kommer inte öka på elementens storlek */
+}
+
+body {
+    margin: 0;
+}
+
+header{   
+    height: 70px;
+}
+
+nav{
+    margin: auto;
+    max-width: 1024px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;   
+}
+
+.fa-bars{
+    z-index: 300;
+}
+
+.sidemenu{
+    position: fixed;   
+    width: 80vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 200;
+    padding: 0 25px;
+    transition: 03s cubic-bezier(0.165, 0.84, 0.44, 1);   
+}
+
+
+
+.sidemenu-hidden{
+    left: -100vw;
+}
+
+.sidemenu-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.sidemenu-top img{
+    padding-bottom: 30px;
+}
+
+.sidemenu-socialmedia{
+    padding: 30px;
+    border-top-style: solid;
+    border-top-color: orange;   
+}
+
+.sidemenu-links{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.sidemenu i{
+    padding: 5px;
+}
+
+.sidemenu a{
+    text-decoration: none;
+    color: #222;
+    padding: 15px;       
+}
+.sidemenu a+a{
+    border-top-style: solid;
+    border-top-color: lightgrey;
+    border-width: 1px;
+}
+
+.desktop{
+    font-size: 16px;    
+    display: none;
+}
+.desktop a{
+    text-decoration: none;
+    color: #222;
+    padding: 3px;
+}
+
+.main {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.our-menu {
+    background-color: rgb(236, 243, 242);
+    margin-bottom: 18%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-family: 'Parisienne', cursive;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 130%;
+    width: 100%;
+}
+
+.section-4-menu {  
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.container-4-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.daily-menu {
+    background-color: rgb(236, 243, 242);
+    font-family: 'Parisienne', cursive;
+    font-weight: lighter;
+}
+
+.container-three-icons-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+}
+
+.container-item {
+    width: 100%;
+}
+
+.lora-menu {
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    color: grey;
+}
+
+.linewrapper {
+    display: flex;
+    align-items: baseline;
+}
+
+.menu-margin-left {
+    margin-left: 4%;
+}
+
+.middle {
+    border-bottom: 1px dotted #aaa;
+    flex-grow: 4;
+    margin: 0 5px;
+}
+
+.menu-margin-right {
+    margin-right: 4%;
+}
+
+.fa-angle-up {
+    position: absolute;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    size: 70%;
+    width: 8%;
+    height: 4%;
+    top: 15%;
+    left: 85%;
+    font-size: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-right: 2%;
+}
+
+.fa-long-arrow-alt-right {
+    margin-left: 5%;
+}
+
+.container-image {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.container-4-div-2 {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    color: white;
+    justify-content: center;
+}
+
+.container-picture-text-3 {  /* Denna räddade oss */
+    position: relative;
+    margin-top: -70%;
+    color: white;
+}
+
+.container-picture-text-2 {
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.three-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p-three-items {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 90%;  
+}
+
+.Exquisite-Taste {
+    font-size: 300%;
+    font-family: 'Parisienne', cursive;
+    position: absolute;
+    margin-top: 20%;
+}
+
+.Exquisite-Text {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 130%;
+    position: absolute;
+    margin-top: 45%;
+}
+
+.Exquisite-Button {
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 3% 7% 3% 7%;
+    position: absolute;
+    margin-top: 90%;
+}
+
+.img-mobile {
+    position: relative;
+    width: 375px;
+    height: 850px;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(70%);
+}
+
+.centered {
+    position: absolute;    
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size: 100%;
+    text-align: center;
+    margin: 10%;
+    text-justify: inter-word;
+}
+
+.img-mobile-GetInTouch {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(70%);
+}
+
+.top-center {
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 15%;
+    font-size: 200%;
+    font-weight: lighter; 
+}
+
+.button-center {
+    position: absolute;
+    top: 70%;
+}
+
+.button-bg {
+    background-color: rgb(255, 102, 0);
+    border: none;
+    color: white;
+    padding: 17% 32% 17% 32%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    size: 370%;
+    width: 170%;
+    justify-content: center;
+}
+
+/* DEKSTOP  */
+@media only screen and (min-width: 650px) {
+    body {
+       display: flex;
+       flex-direction: column;
+    }
+    
+    .container {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    .desktop{
+        display: flex;
+    }
+
+    .our-menu {
+        display: flex;
+        background-color: rgb(236, 243, 242);
+        margin-bottom: 8%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-family: 'Parisienne', cursive;
+        font-weight: lighter;
+        text-align: center;
+        justify-content: center;
+        font-size: 230%;
+    }
+
+    .section-4-menu {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-4-div {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .container-three-icons-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-item {
+        width: 50%;
+    }
+
+    .three-icons {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-4-div-2 {
+        display: flex;
+        width: 100%;
+        flex-direction: row-reverse;
+        color: white;
+        justify-content: left;
+        position: relative;
+        margin-top: 0%;
+    }
+
+    .Exquisite-Taste {
+        font-size: 200%;
+        font-family: 'Parisienne', cursive;
+        position: relative;
+        margin-top: 10%;
+    }
+
+    .Exquisite-Text {
+        text-align: center;
+        justify-content: right;
+        width: 50%;
+        position: relative;
+        margin-top: 0%;
+        font-size: 100%;
+    }
+
+    .Exquisite-Button {
+        color: white;
+        background-color: orange;
+        border: none;
+        padding: 2% 4% 2% 4%;
+        position: relative;
+        margin-top: 0%;
+    }
+
+    .container-picture-text-3 {
+        position: relative;
+        margin-top: -40%;
+        color: white;
+    }
+
+    .img-mobile {
+        width: 100%;
+        height: 20%;
+        object-fit: cover;
+        z-index: -1;   
+        filter: brightness(70%);
+    }
+    
+    .img-mobile-GetInTouch {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 350px;
+        z-index: -1;   
+        filter: brightness(70%);
+    }
+
+    .top-center {
+        font-family: 'Playfair Display', serif;
+        position: absolute;
+        top: 15%;
+        font-size: 200%;
+        font-weight: lighter; 
+        color: white;
+    }
+
+    .centered {
+        position: absolute;    
+        font-family: 'Playfair Display', serif;
+        font-weight: lighter;
+        font-size: 100%;
+        width: 40%;
+        top: 20%;
+        justify-self: flex-end;
+        flex-direction: row;
+    }
+
+    .button-center {
+        position: absolute;
+        top: 70%;
+    }
+
+    .button-bg-2 {
+        width: 45%;
+        padding: 3% 5% 3% 5%;
+    }
+}
