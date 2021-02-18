@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0;
+}
+
 header{   
     height: 70px;
 }
@@ -22,25 +26,13 @@ nav{
 }
 
 .sidemenu{
-    position: fixed;
-    
-    width: 100vw;
+    position: fixed;   
+    width: 80vw;
     height: 100vh;
-    background: black;
-    opacity: 0.60;
-    /* background-color: white; */
+    background-color: white;
     z-index: 200;
     padding: 0 25px;
     transition: 03s cubic-bezier(0.165, 0.84, 0.44, 1);   
-}
-
-.inner-sidemenu{
-    position: fixed;
-    left: -100;
-    width: 80vw;
-    height: 100vh;
-    background:white;
-    opacity: 100%;
 }
 
 .sidemenu-hidden{
@@ -88,15 +80,13 @@ nav{
     font-size: 16px;    
     display: none;
 }
+
 .desktop a{
     text-decoration: none;
     color: #222;
     padding: 3px;
 }
 
-body{
-    margin: 0;
-}
 
 button{
     width: 140px;
