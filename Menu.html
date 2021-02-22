@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="stylemenu.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/ourmenustyle.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/e146464b76.js" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
 </head>
 <body>
     <div class="sidemenu sidemenu-hidden">
-        <div class="inner-sidemenu">
+        <div class="inner-sidemenu-left">
             <div class="sidemenu-top">
-                <img src="picturesAU/navlogo.png" alt="logo" width="240px">
+                <img src="pictures/navlogo.png" alt="logo" width="240px">
                 <div class="sidemenu-socialmedia">
                     <i class="fab fa-facebook-f"></i>
                     <i class="fab fa-twitter"></i>
@@ -30,12 +33,15 @@
                 </div>
             </div>
             <div class="sidemenu-links">
-                <a href="#">HOME</a>
-                <a href="Menu.html">MENU</a>
-                <a href="AboutUs.html">ABOUT US</a>
-                <a href="#">RESERVATION</a>
-                <a href="Ourblog.html">OUR BLOG</a>
+                <a href="index.html">HOME</a>
+                <a href="menu.html">MENU</a>
+                <a href="aboutus.html">ABOUT US</a>
+                <a href="reservation.html">RESERVATION</a>
+                <a href="ourblog.html">OUR BLOG</a>
             </div>
+        </div>
+        <div class="inner-sidemenu-right">
+            <i class="sidemenu-btn2 fas fa-times-circle fa-2x"></i>           
         </div>        
     </div>
     <header>        
@@ -45,14 +51,14 @@
         </nav>        
         <nav class="desktop">
             <div>
-                <a href="#">HOME</a>
-                <a href="Menu.html">MENU</a>
-                <a href="AboutUs.html">ABOUT US</a>
+                <a href="index.html">HOME</a>
+                <a href="menu.html">MENU</a>
+                <a href="aboutus.html">ABOUT US</a>
             </div>
-            <img src="picturesAU/navlogo.png" alt="logo" width="160px">
+            <img src="pictures/navlogo.png" alt="logo" width="160px">
             <div>
-                <a href="#">RESERVATION</a>
-                <a href="Ourblog.html">OUR BLOG</a>
+                <a href="reservation.html">RESERVATION</a>
+                <a href="ourblog.html">OUR BLOG</a>
                 <i class="fas fa-search"></i>
             </div>
         </nav>        
@@ -226,12 +232,11 @@
                 <div class="container-4-div-2">
                     <button class="Exquisite-Button">BOOK A TABLE</button>
                 </div>
-        </section>
-        
+              
                 <div class="container container-picture-text-3"> 
                     <img src="pictures/15.jpg" class="img-mobile">
                 </div>
-               
+            </section>     
           <!-- Måste ha sectionen här och inte efter andra menyn för att få samma "70% i mitten och inte till vänster vid bilden ??"-->
 
         <section class="main"> 
@@ -257,7 +262,7 @@
             </div>
         </section>
 
-        <section>
+        <!-- <section>
             <div class="container container-picture-text-2">
                 <img src="pictures/12.jpg" class="img-mobile-GetInTouch">
                 <div class="container top-center">
@@ -270,11 +275,47 @@
                     <button class="container button-bg button-bg-2">FOLLOW US <span class="fas fa-long-arrow-alt-right"></span></button>
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
-
-    <footer class="three-icons">
-        <p>Facebook Twitter insta pinterest youtube hjärta...</p>
+    <section class="get-in-touch">
+        <div class="get-in-touch-text">
+            <h1>Get In Touch</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Repudiandae Nemo enim ipsam voluptatem quia voluptas sit 
+                aspernatur aut odit aut fugit, 
+                sed quia consequuntur magani dolores eos.
+            </p>
+            <button class="button">FOLLOW US  <span class="fas fa-long-arrow-alt-right"></span></button>
+        </div>   
+    </section>
+    <footer>
+        <div class="inner-footer">
+            <div class="footer-logo">
+                <i class="fab fa-facebook-f"></i>
+                <div>FACEBOOK</div>
+            </div>
+            <div class="footer-logo">
+                <i class="fab fa-twitter"></i>
+                <div>TWITTER</div>           
+            </div>
+            <div class="footer-logo">
+                <i class="fab fa-instagram"></i>
+                <div>INSTAGRAM</div>
+            </div>
+            <div class="footer-logo">
+                <i class="fab fa-pinterest"></i>
+                <div>PINTEREST</div>
+            </div>
+            <div class="footer-logo">
+                <i class="fab fa-youtube"></i>
+                <div>YOUTUBE</div>
+            </div>
+            <div class="footer-logo">
+                <i class="far fa-heart"></i>
+                <div>BLOGLOVIN</div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

@@ -1,101 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-body{
-    margin: 0;
-}
-
-header{   
-    height: 70px;
-}
-
-nav{
-    margin: auto;
-    max-width: 1024px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;   
-}
-
-.fa-bars{
-    z-index: 300;
-}
-
-.sidemenu{
-    position: fixed;   
-    width: 80vw;
-    height: 100vh;
-    background-color: white;
-    z-index: 200;
-    padding: 0 25px;
-    transition: 03s cubic-bezier(0.165, 0.84, 0.44, 1);   
-}
-
-.sidemenu-hidden{
-    left: -100vw;
-}
-
-.sidemenu-top{
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-}
-
-.sidemenu-top img{
-    padding-bottom: 30px;
-}
-
-.sidemenu-socialmedia{
-    padding: 30px;
-    border-top-style: solid;
-    border-top-color: orange;   
-}
-
-.sidemenu-links{
-    display: flex;
-    flex-direction: column;
-    padding-top: 30px;
-}
-
-.sidemenu i{
-    padding: 5px;
-}
-
-.sidemenu a{
-    text-decoration: none;
-    color: #222;
-    padding: 15px;       
-}
-.sidemenu a+a{
-    border-top-style: solid;
-    border-top-color: lightgrey;
-    border-width: 1px;
-}
-
-.desktop{
-    font-size: 16px;    
-    display: none;
-}
-
-.desktop a{
-    text-decoration: none;
-    color: #222;
-    padding: 3px;
-}
-
-
-button{
-    width: 140px;
-    padding: 12px;
-    background-color: darkorange;
-    color: white;
-    border: 0;
-    font-size: 12px;
-}
 
 .about-us{
     font-family: 'Parisienne', cursive;
@@ -116,7 +18,7 @@ button{
     max-width: 100%;
     width: 1024px;
     height: 500px;
-    background-image: url("picturesAU/10-cut-dark.jpg");
+    background-image: url("/pictures/10-cut-dark.jpg");
     background-size: cover;
     background-position: center center;
     color: white;
@@ -212,41 +114,7 @@ button{
     font-family: 'Playfair Display', serif;
 }
 
-.get-in-touch{
-    display: flex;
-    align-items: center;
-    height: 300px;
-    background-image: url("picturesAU/12-cut-dark.jpg");
-    background-size: cover;
-    background-position: center center;
-    text-align: center;
-    position: relative;
-    color: white;
-}
-.get-in-touch-text{
-    font-family: 'Lora', serif;
-}
-
-.get-in-touch-text h1{
-    font-family: 'Playfair Display', serif;
-}
-
-.get-in-touch img{
-    max-width: 100%;
-}
-
-.get-in-touch-pic-1{
-    display: none;
-}
-
 @media screen and (min-width: 576px){
-    .mobile{
-        display: none;
-    }
-
-    .desktop{
-        display: flex;
-    }
 
     .banner-text{
         padding-left: 50%;
@@ -275,9 +143,5 @@ button{
 
     .outer-trio{
         flex-direction: row;
-    }
-    
-    .get-in-touch{
-        padding: 0 30%;
     }
   }
