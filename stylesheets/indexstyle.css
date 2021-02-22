@@ -65,7 +65,7 @@ main {
   display: flex;
   position: relative;
   text-align: center;
-  color: red;
+  color: #FF7143;
 }
 
 .centered-2 {
@@ -199,7 +199,7 @@ main {
   color: black;
 }
 .text-color-orange {
-  color: rgb(255, 102, 0);
+  color: #FF7143;
 }
 .z-index {
   position: absolute;
@@ -264,7 +264,7 @@ main {
   width: 10%;
 }
 .button-section-one {
-  background-color: rgb(255, 102, 0);
+  background-color: #FF7143;
   border: none;
   color: white;
   text-align: center;
@@ -277,7 +277,7 @@ main {
   margin: 0 0 15px;
 }
 .button-section-two {
-  background-color: rgb(255, 102, 0);
+  background-color: #FF7143;
   border: none;
   color: white;
   text-align: center;
@@ -354,7 +354,7 @@ main {
   margin-bottom: 10px;
 }
 .quote-style {
-  color: rgb(255, 102, 0);
+  color: #FF7143;
 }
 .shrink-container {
   width: 70%;
@@ -431,7 +431,7 @@ main {
 
 .fa-angle-up {
   position: absolute;
-  background-color: rgb(255, 94, 0);
+  background-color: #FF7143;
   color: white;
   size: 70%;
   width: 8%;
@@ -521,7 +521,7 @@ main {
 
 .Exquisite-Button {
   color: white;
-  background-color: orange;
+  background-color: #FF7143;
   border: none;
   padding: 3% 7% 3% 7%;
   position: absolute;
@@ -591,7 +591,7 @@ main {
     margin-right: 5px;
   }
   .button-section-two {
-    background-color: rgb(255, 102, 0);
+    background-color: #FF7143;
     border: none;
     color: white;
     text-align: center;
@@ -733,17 +733,9 @@ main {
     display: flex;
     position: relative;
     text-align: center;
-    color: red;
+    color: #FF7143;
   }
 
-  /* .Exquisite-Text-2 {
-    text-align: center;
-    justify-content: center;
-    width: 50%;
-    position: absolute;
-    margin-top: 0%;
-    font-size: 100%;
-    }  */
 
   .centered-2 {
     position: absolute;
@@ -836,7 +828,7 @@ main {
 
   .Exquisite-Button {
     color: white;
-    background-color: orange;
+    background-color: #FF7143;
     border: none;
     padding: 2% 4% 2% 4%;
     position: absolute;

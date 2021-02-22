@@ -1,11 +1,9 @@
 
-
 .reservation {
     background-color: #f2f2f2;
     padding: 60px;
     margin-bottom: 38px;
 }
-
 
 ul.leaders {
     max-width: 40em;
@@ -37,8 +35,6 @@ ul.leaders img {
         margin-right: 6px;
 } 
 
-
-
 .daily-menu {
   font-family: 'Parisienne', cursive;
   font-weight: lighter;
@@ -69,7 +65,6 @@ ul.leaders img {
  
 }
 
-
 main {
     max-width: 1024px;
     margin: auto;
@@ -84,8 +79,6 @@ main {
 
 
 }
-
-
 
 .middle {
     border-bottom: 1px dotted #aaa;
@@ -118,7 +111,7 @@ main {
     font-family: 'Parisienne', cursive;
     font-weight: 100;
     text-align: center;
-    font-size: xx-large;
+    font-size: 70px;
 
 }
 
@@ -130,8 +123,6 @@ main {
     font-style: italic;
 }
 
-
-
 .textlocation{
     font-family: 'Lora', serif;
     font-size: 14px; 
@@ -141,7 +132,6 @@ main {
     color: darkgrey;
     font-weight: 500;
 }
-
 
 .hours {
 
@@ -177,15 +167,11 @@ main {
     padding-top: 10px;
     text-align: center;
     padding-bottom: 20px;
-
-
-
 }
 
 .fontsize{
 font-size: 16px;
 }
-
 
 .photo{
     background-color: white;
@@ -268,9 +254,6 @@ input[type=text], select {
   padding-bottom: 0px;
   position: relative;
   height: 500px;
-
-
-
   }
 .map iframe {
 
@@ -281,8 +264,6 @@ input[type=text], select {
     position: absolute;
     padding-bottom: 0px;
     border: 0;
-
-
 }
 
 .tablehours {
@@ -357,25 +338,18 @@ input[type=text], select {
     justify-content: center;
 }
 
-
 .wrapper {
 
     display: flex;
-    flex-direction: column;
-
-    
+    flex-direction: column; 
 }
-
-
-
 
 @media only screen and (min-width: 650px) {
 
     *{
         box-sizing: border-box;
-flex-direction: row;
+        flex-direction: row;
     }
-
 
     .container1 {
         justify-content: center;
@@ -383,7 +357,8 @@ flex-direction: row;
         display: flex;
         flex-direction: row;
     }
-.centered {
+
+    .centered {
         position: absolute;
         font-family: 'Playfair Display', serif;
         font-weight: lighter;
@@ -405,7 +380,8 @@ flex-direction: row;
         width: 45%;
         padding: 3% 5% 3% 5%;
     }
-.top-center {
+
+    .top-center {
         font-family: 'Playfair Display', serif;
         position: absolute;
         top: 15%;
@@ -414,7 +390,6 @@ flex-direction: row;
         color: white;
     }
 
-    
     .img-mobile-GetInTouch {
         display: flex;
         position: relative;
@@ -439,7 +414,6 @@ flex-direction: row;
         
     }
 
-    
     .container img {
         display: flex;
         justify-content: flex-start;
@@ -612,11 +586,6 @@ input[type=text], select {
 
 }
 
-.menu-margin-left {
-} 
-
-
-
 .menu-margin-left img {
 
     float: left;
@@ -651,7 +620,7 @@ input[type=text], select {
     font-family: 'Parisienne', cursive;
     font-weight: 100;
     text-align: center;
-    font-size: xxx-large;
+    font-size: 70px;
 
 }
 

@@ -6,6 +6,24 @@ body{
     margin: 0;
 }
 
+.our-menu {
+    background-color: rgb(240, 239, 239);
+    font-family: 'Parisienne', cursive;
+    padding: 60px;
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 70px;
+}
+
+.button{
+    width: 140px;
+    padding: 12px;
+    background-color: #FF7143;
+    color: white;
+    border: 0;
+    font-size: 12px;
+}
+
 header{   
     height: 70px;
 }
@@ -108,16 +126,6 @@ a:hover{
     padding: 3px;
 }
 
-
-button{
-    width: 140px;
-    padding: 12px;
-    background-color: darkorange;
-    color: white;
-    border: 0;
-    font-size: 12px;
-}
-
 .get-in-touch{
     display: flex;
     align-items: center;
@@ -132,10 +140,12 @@ button{
 
 .get-in-touch-text{
     font-family: 'Lora', serif;
+    font-style: italic;
 }
 
 .get-in-touch-text h1{
     font-family: 'Playfair Display', serif;
+    font-style: italic;
 }
 
 footer{

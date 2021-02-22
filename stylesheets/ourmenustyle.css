@@ -1,13 +1,4 @@
 
-.button{
-    width: 140px;
-    padding: 12px;
-    background-color: darkorange;
-    color: white;
-    border: 0;
-    font-size: 12px;
-}
-
 .main {
     max-width: 1024px;
     margin: auto;
@@ -18,18 +9,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-.our-menu {
-    background-color: rgb(240, 239, 239);
-    margin-bottom: 18%;
-    padding-top: 10%;
-    padding-bottom: 5%;
-    font-family: 'Parisienne', cursive;
-    font-weight: lighter;
-    text-align: center;
-    font-size: 130%;
-    width: 100%;
 }
 
 .section-4-menu {  
@@ -172,7 +151,7 @@
 
 .Exquisite-Button {
     color: white;
-    background-color: orange;
+    background-color: #FF7143;
     border: none;
     padding: 3% 7% 3% 7%;
     position: absolute;
@@ -198,15 +177,6 @@
     text-justify: inter-word;
 }
 
-/* .img-mobile-GetInTouch {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    z-index: -1;
-    filter: brightness(70%);
-} */
-
 .top-center {
     font-family: 'Playfair Display', serif;
     position: absolute;
@@ -218,19 +188,6 @@
 .button-center {
     position: absolute;
     top: 70%;
-}
-
-.button-bg {
-    background-color: rgb(255, 102, 0);
-    border: none;
-    color: white;
-    padding: 17% 32% 17% 32%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    size: 370%;
-    width: 170%;
-    justify-content: center;
 }
 
 /* DEKSTOP  */
@@ -253,19 +210,6 @@
 
     .desktop{
         display: flex;
-    }
-
-    .our-menu {
-        display: flex;
-        background-color: rgb(240, 239, 239);
-        margin-bottom: 8%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        font-family: 'Parisienne', cursive;
-        font-weight: lighter;
-        text-align: center;
-        justify-content: center;
-        font-size: 230%;
     }
 
     .section-4-menu {
@@ -331,7 +275,7 @@
 
     .Exquisite-Button {
         color: white;
-        background-color: orange;
+        background-color: #FF7143;
         border: none;
         padding: 2% 4% 2% 4%;
         position: relative;
@@ -339,8 +283,10 @@
     }
 
     .container-picture-text-3 {
+        margin: auto;
+        max-width: 1400px;
         position: relative;
-        margin-top: -40%;
+        margin-top: -30%;
         color: white;
     }
 
@@ -351,15 +297,6 @@
         z-index: -1;   
         filter: brightness(70%);
     }
-    
-    /* .img-mobile-GetInTouch {
-        display: flex;
-        position: relative;
-        width: 100%;
-        height: 350px;
-        z-index: -1;   
-        filter: brightness(70%);
-    } */
 
     .top-center {
         font-family: 'Playfair Display', serif;
