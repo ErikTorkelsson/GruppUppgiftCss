@@ -28,16 +28,13 @@
     z-index: 100;   
 }
 
-.about-the-restaurant-pic-2{
-    display: none;
-}
-
 .banner-text{
     display: flex;
     flex-direction: column;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    position: absolute;  
+    position: absolute;
+    padding: 5%;  
 }
 
 .banner-text h5{

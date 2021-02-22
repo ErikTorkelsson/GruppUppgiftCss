@@ -133,7 +133,37 @@
     width: 90%;  
 }
 
-.Exquisite-Taste {
+.exquisite{
+    height: 600px;
+    top: -50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    /* justify-content: center; */
+    background-image: url("/pictures/15-cut.jpg");
+    background-size: cover;
+    background-position: center center;
+    /* text-align: center; */
+    position: relative;
+    z-index: -100;
+}
+
+.exquisite-header{
+    font-family:'Parisienne', cursive;
+    font-size: 50px;
+}
+
+.exquisite-text{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 7%;
+}
+
+/* .Exquisite-Taste {
     font-size: 300%;
     font-family: 'Parisienne', cursive;
     position: absolute;
@@ -156,7 +186,7 @@
     padding: 3% 7% 3% 7%;
     position: absolute;
     margin-top: 90%;
-}
+} */
 
 .img-mobile {
     position: relative;
@@ -225,6 +255,8 @@
         display: flex;
         width: 100%;
         flex-direction: row;
+        position: relative;
+        top: 50px;
     }
 
     .container-three-icons-4 {
@@ -247,47 +279,13 @@
         width: 100%;
     }
 
-    .container-4-div-2 {
-        display: flex;
-        width: 100%;
-        flex-direction: row-reverse;
-        color: white;
-        justify-content: left;
-        position: relative;
-        margin-top: 0%;
+    .exquisite{
+        text-align: right;
     }
 
-    .Exquisite-Taste {
-        font-size: 200%;
-        font-family: 'Parisienne', cursive;
-        position: relative;
-        margin-top: 10%;
-    }
-
-    .Exquisite-Text {
-        text-align: center;
-        justify-content: right;
-        width: 50%;
-        position: relative;
-        margin-top: 0%;
-        font-size: 100%;
-    }
-
-    .Exquisite-Button {
-        color: white;
-        background-color: #FF7143;
-        border: none;
-        padding: 2% 4% 2% 4%;
-        position: relative;
-        margin-top: 0%;
-    }
-
-    .container-picture-text-3 {
-        margin: auto;
-        max-width: 1400px;
-        position: relative;
-        margin-top: -30%;
-        color: white;
+    .exquisite-text{
+        text-align: right;
+        padding-left: 30%;
     }
 
     .img-mobile {
@@ -326,5 +324,11 @@
     .button-bg-2 {
         width: 45%;
         padding: 3% 5% 3% 5%;
+    }
+
+    @media only screen and (min-width: 1100px){
+        .exquisite-text{
+            padding-right: 0;
+        }
     }
 }
