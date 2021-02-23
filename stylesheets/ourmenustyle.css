@@ -141,7 +141,7 @@
     flex-direction: column;
     /* align-items: flex-end; */
     /* justify-content: center; */
-    background-image: url("/pictures/15-cut.jpg");
+    background-image: url("../pictures/15-cut.jpg");
     background-size: cover;
     background-position: center center;
     /* text-align: center; */
